@@ -1,0 +1,38 @@
+.Nav-header {
+    display: inline-flex;
+    width: 100vw;
+    height: 10vh;
+    padding: 0 5%;
+    box-sizing: border-box;
+    background-color: lightseagreen;
+    box-shadow: 0 0 5px 0 grey;
+}
+
+.Nav-title {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.Nav-list {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 60%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Nav-list li {
+    display: flex;
+    align-items: center;
+    padding: 0 1%;
+    box-sizing: border-box;
+}
+
+.Nav-list li:hover {
+    background-color: white;
+}
