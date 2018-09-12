@@ -9,11 +9,17 @@ class Nav extends Component {
                 <div className="Nav-title">Chen's Clinic</div>
                     <ul className="Nav-list">
                         <li>
-                           <Link to="/">Home</Link>
+                            <Link to="/">Home</Link>
                         </li>
-                        <li>About</li>
-                        <li>Schedule</li>
-                        <li>Contact</li>
+                        <li>
+                            <Link to="/about">About</Link>
+                        </li>
+                        <li>
+                            <Link to="/schedule">Schedule</Link>
+                        </li>
+                        <li>
+                            <Link to="/contact">Contact</Link>
+                        </li>
                     </ul>
             </div>
         );
