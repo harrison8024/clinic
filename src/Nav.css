@@ -36,3 +36,8 @@
 .Nav-list li:hover {
     background-color: white;
 }
+
+.Nav-list a {
+    color: inherit;
+    text-decoration: none;
+}
